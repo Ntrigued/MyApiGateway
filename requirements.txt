@@ -16,7 +16,10 @@ django==5.2
     # via
     #   -r requirements.in
     #   django-cors-headers
+    #   djangorestframework
 django-cors-headers==4.7.0
+    # via -r requirements.in
+djangorestframework==3.16.0
     # via -r requirements.in
 idna==3.10
     # via requests
